@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #353535;
+    font-family: Arial, sans-serif;
+}
+#pageTitle {
+    font-size: 5.5em; /* 增大字體，使標題更加突出 */
+    font-weight: bold;
+    margin-top: 10px; /* 與頁面頂端留些空間 */
+    margin-bottom: 30px; /* 與其他元素保持更大的距離 */
+    text-align: center;
+    color: #cad1ff; /* 改變字體顏色，使其更有對比度 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 添加文字陰影，讓標題更立體 */
+    position: relative;
+    top: 0px; /* 調整牌名的位置，使其在牌的上方 */
+    text-align: center;
+}
+#card {
+    width: 300px; /* 初始寬度 */
+    height: 450px; /* 初始高度 */
+    background-color: #fff;
+    background-size: contain; /* 保持圖片比例並完整顯示 */
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.6s ease, width 0.6s ease, height 0.6s ease;
+    transform-style: preserve-3d;
+    position: relative;
+}
+#drawCardButton {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+}
+#drawCardButton:hover {
+    background-color: #357d39;
+}
+#cardName {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#f0f0f0;
+    position: relative;
+    top: -10px; /* 調整牌名的位置，使其在牌的上方 */
+    text-align: center;
+}
+#readButton {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#readButton:hover {
+    background-color: #006390;
+}
