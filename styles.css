@@ -13,7 +13,7 @@ body {
     margin-top: 10px; /* 與頁面頂端留些空間 */
     margin-bottom: 30px; /* 與其他元素保持更大的距離 */
     text-align: center;
-    color: #ed7fd9; /* 改變字體顏色，使其更有對比度 */
+    color: #f12d2d; /* 改變字體顏色，使其更有對比度 */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 添加文字陰影，讓標題更立體 */
     position: relative;
     top: 10px; /* 調整牌名的位置，使其在牌的上方 */
