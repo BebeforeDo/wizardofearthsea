@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="pageTitle">VI</h1>
-    <div id="cardName" style="display: none;">隨機牌名</div>
-    <div id="card"></div> 
-    <button id="drawCardButton">當下狀態</button>
+    <h1 id="pageTitle">存在狀態先於行動</h1>
+    <h2 id="subTitle">being - doing</h2>
+    <div id="cardName" style="display: none; position: relative; top: 0px;">隨機牌名</div>
+    <div id="card" style="background: url('images/back.jpg') no-repeat center/cover; width: 300px; height: 450px;"></div>
+    <button id="drawCardButton">我的當下狀態</button>
+    <p id="slowBreathText">請將呼吸放慢</p>
     <button id="readButton" style="display: none;">看說明</button>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
