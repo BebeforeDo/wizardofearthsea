@@ -1,7 +1,0 @@
-{
-    "cards": [
-      { "name": "愚者", "image": "images/Fool.jpg", "detailUrl": "fool-detail.html" },
-      { "name": "魔術師", "image": "images/Magician.jpg", "detailUrl": "magician-detail.html" },
-      { "name": "女祭司", "image": "images/High_Priestess.jpg", "detailUrl": "highpriestess-detail.html" }
-    ]
-  }
