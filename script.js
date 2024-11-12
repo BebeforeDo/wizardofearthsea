@@ -15,15 +15,7 @@ fetch('tarot-card.json')
         const slowBreathText = document.getElementById('slowBreathText');
 
 
-        function adjustCardSize() {
-            const windowHeight = window.innerHeight;
-            const cardHeight = windowHeight * 0.5; // 卡片高度是視窗高度的 50%
-            const cardWidth = cardHeight * (2 / 3); // 根據寬高比例計算卡片寬度
-
-            card.style.height = `${cardHeight}px`;
-            card.style.width = `${cardWidth}px`;
-        }
-
+        
         img.onload = function() {
             const aspectRatio = img.naturalWidth / img.naturalHeight;
             const cardWidth = 300; // 設定寬度
