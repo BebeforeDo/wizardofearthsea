@@ -32,7 +32,7 @@ body {
     position: relative;
 }
 #drawCardButton {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 1.2em;
     background-color: #4CAF50;
     color: white;
@@ -41,6 +41,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 #drawCardButton:hover {
     background-color: #2d6b30;
@@ -55,7 +56,7 @@ body {
     text-align: center;
 }
 #readButton {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 1.2em;
     background-color: #008a97;
     color: white;
@@ -63,6 +64,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    line-height: 1.5;
 }
 #readButton:hover {
     background-color: #00646d;

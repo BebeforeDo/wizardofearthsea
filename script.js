@@ -41,8 +41,8 @@ fetch('tarot-card.json')
                 card.style.transition = 'none'; // 移除動畫效果，直接顯示正面
                 card.style.transform = 'rotateY(0deg)';
                 card.style.background = `url('${selectedCard.image}') no-repeat center/contain`;
-                cardName.textContent = `${selectedCard.name_chinese}`;
-                cardName.style.display = 'block';
+                //cardName.textContent = `${selectedCard.name_chinese}`;
+                //cardName.style.display = 'block';
                 readButton.style.display = 'block';
 
                 // 修改標題和副標題顏色
