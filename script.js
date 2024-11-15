@@ -1,4 +1,4 @@
-fetch('tarot-card.json')
+fetch('text.json')
     .then(response => response.json())
     .then(data => {
         const tarotCards = data;
