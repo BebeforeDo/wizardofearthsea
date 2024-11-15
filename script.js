@@ -54,7 +54,8 @@ fetch('tarot-card.json')
                 slowBreathText.style.display = 'none';
 
                 readButton.onclick = () => {
-                    window.location.href = selectedCard.detailUrl;
+                    //window.location.href = selectedCard.detailUrl;
+                    window.open(selectedCard.detailUrl, '_blank')
                 };
             }, 600);
         });
