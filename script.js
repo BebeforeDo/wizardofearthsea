@@ -13,6 +13,7 @@ fetch('tarot-card.json')
         const pageTitle = document.getElementById('pageTitle');
         const subTitle = document.getElementById('subTitle');
         const slowBreathText = document.getElementById('slowBreathText');
+        
 
 
         
@@ -47,7 +48,7 @@ fetch('tarot-card.json')
 
                 // 修改標題和副標題顏色
                 pageTitle.style.color = '#737373'; // 修改主標題顏色
-                subTitle.style.color = '#737373'; // 修改副標題顏色
+                /*subTitle.style.color = '#737373'; // 修改副標題顏色*/
 
                 // 隱藏抽卡按鈕和提示文字
                 drawCardButton.style.display = 'none';
